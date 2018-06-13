@@ -90,6 +90,7 @@ exitax = plt.axes([0.65, 0.025, 0.1, 0.04])
 exit_button = Button(exitax, 'Exit', color=axcolor, hovercolor='0.975')
 
 def exit(event):
+    cv2.destroyAllWindows()
     sys.exit()
 exit_button.on_clicked(exit)
 
