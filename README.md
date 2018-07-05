@@ -31,7 +31,7 @@ Problem happend. According to https://github.com/pypa/virtualenv/issues/788
 # Usage
 ## step1.
 > $ source enable-py3_5.sh  
- or
+ or  
 > $ source /anaconda2/bin/activate py3.5  
 
 ## step2.
