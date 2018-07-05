@@ -38,6 +38,7 @@ plt.subplots_adjust(left=0.25, bottom=0.25)
 # reading original jpeg image
 org_img  = cv2.imread(infile, cv2.IMREAD_UNCHANGED)
 cv2.imshow('Original Image', org_img)
+# plt.imshow(org_img) # does not work
 
 # reading it in gray scale
 gray_img  = cv2.imread(infile, cv2.IMREAD_GRAYSCALE)
